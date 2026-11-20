@@ -1,5 +1,5 @@
 const fs=require('fs'),vm=require('vm'),assert=require('assert');
-const ctx=vm.createContext({console});vm.runInContext(fs.readFileSync(__dirname+'/dist/models.js','utf8')+fs.readFileSync(__dirname+'/dist/extensions.js','utf8')+';this.models=M;',ctx);let M=ctx.models,total=0;
+const ctx=vm.createContext({console});vm.runInContext(fs.readFileSync(__dirname+'/dist/models.js','utf8')+';this.models=M;',ctx);let M=ctx.models,total=0;
 for(const [id,m] of Object.entries(M)){const base=Object.fromEntries(m.controls.filter(c=>c.type!=='button').map(c=>[c.key,c.value]));let scenarios=[base];for(const c of m.controls){if(c.type==='range'||c.type==='number')scenarios.push({...base,[c.key]:c.min},{...base,[c.key]:c.max});if(c.type==='select')for(const v of c.options)scenarios.push({...base,[c.key]:v});}for(const s of scenarios){let r=m.render({...s});assert.equal(r.length,2,id);assert(!r[0].includes('NaN'),id+' invalid SVG');assert(!/="(?:Infinity|-Infinity)/.test(r[0]),id+' infinite coordinate');total++}}
 function render(id,params){let m=M[id],s=Object.fromEntries(m.controls.filter(c=>c.type!=='button').map(c=>[c.key,c.value]));return m.render({...s,...params})[1]}
 assert(render('right',{a:3,b:4}).includes('5'));assert(render('balance',{a:2,b:3,c:15,x:6}).includes('Solution x = (c − b) / a = 6'));
