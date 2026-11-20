@@ -1,0 +1,41 @@
+/* Emerald discovery selector */
+.library{position:relative;isolation:isolate;padding-top:48px;padding-bottom:42px;background:radial-gradient(ellipse at 90% 0%,#ccebe24d,transparent 45%)}
+.library .section-heading{position:relative;min-height:140px;align-items:flex-start;margin-bottom:28px;padding-right:210px}
+.library .section-heading>p{display:block;position:absolute;left:0;top:93px;margin:0;font-size:18px;color:#59746c}
+.library .section-heading .eyebrow{letter-spacing:.22em;font-weight:700;margin-bottom:20px}
+.library .section-heading .eyebrow:after{content:'';display:block;width:48px;height:3px;border-radius:3px;background:#24bb8c;margin-top:12px}
+.library .section-heading h2{font-family:Georgia,'Times New Roman',serif;font-size:clamp(34px,3.7vw,52px);letter-spacing:-.035em;line-height:1.12;color:#103d34;margin:0}
+.selection-art{position:absolute;right:22px;top:4px;width:170px;height:130px;pointer-events:none;opacity:.7}
+.selection-art .glass-cube{position:absolute;left:16px;top:38px;width:66px;height:66px;border:1px solid #ffffffc9;background:linear-gradient(135deg,#e5fff6b3,#79bda780);box-shadow:inset 10px 0 20px #fff8,12px 18px 22px #487b6326;transform:rotate(-12deg) skewY(8deg)}
+.selection-art .glass-sphere{position:absolute;right:8px;bottom:8px;width:66px;height:66px;border-radius:50%;background:radial-gradient(circle at 30% 25%,#fff,#b0dccc 34%,#609e8a 75%,#defff0);box-shadow:7px 14px 18px #487b6326}
+.selection-art .glass-cone{position:absolute;right:25px;top:0;width:65px;height:92px;clip-path:polygon(50% 0,100% 90%,86% 100%,12% 100%,0 90%);background:linear-gradient(100deg,#b4dcca,#f4fff9 48%,#89b4a3)}
+.library .grades{gap:12px;margin-bottom:28px}
+.library .grades button{position:relative;background:linear-gradient(145deg,#fff,#f5f7ef);border:1px solid #d6e3d9;border-radius:17px;min-height:105px;padding:18px 6px 14px;color:#1c4b40;box-shadow:0 7px 12px #223c2e0b;transition:transform 180ms ease,box-shadow 220ms ease,background 220ms ease,border-color 220ms ease}
+.library .grades button span{font-size:11px;letter-spacing:.08em}
+.library .grades button b{font-family:Georgia,'Times New Roman',serif;font-size:38px;line-height:1.2;margin-top:7px}
+.library .grades button.active{background:linear-gradient(135deg,#13b78c,#00664e 65%,#034b3d);color:#fff;border-color:#a4f5d9;box-shadow:0 8px 22px #19b98540,inset 0 1px 1px #ffffff75;animation:grade-select 220ms ease-out}
+.library .grades button.active:after{content:'✓';position:absolute;right:8px;top:8px;border-radius:50%;width:17px;height:17px;line-height:17px;font-size:11px;font-weight:700;background:#d8ffeb;color:#00664e}
+@media(hover:hover){.library .grades button:hover{transform:translateY(-5px);box-shadow:0 12px 22px #17785524;border-color:#8ee2bb}}
+.library .grades button:focus-visible{outline:3px solid #199c75;outline-offset:4px}
+.competency-filters{padding:18px 22px;gap:24px;background:linear-gradient(120deg,#e5eee7e8,#dceee6b3);border:1px solid #fff;border-radius:19px;box-shadow:0 8px 24px #2f6d4e0d;backdrop-filter:blur(12px);margin-bottom:30px}
+.competency-filters>label{font-size:16px;font-weight:700;gap:15px;color:#16483c;border-right:1px solid #b9d5c6;padding-right:24px}
+.competency-filters select{min-height:48px;border-radius:12px;box-shadow:0 4px 8px #294d3609;font-size:15px;min-width:156px;color:#16483c}
+.competency-dropdown{border-radius:12px;border:1px solid #bddbca;box-shadow:0 3px 8px #294d3608;background:#ffffffed;transition:border-color 180ms,box-shadow 180ms}
+.competency-dropdown[open]{border-color:#19b782;box-shadow:0 0 0 2px #2fd1981a}
+.competency-dropdown summary{padding:14px 18px;min-height:48px}.competency-dropdown .dropdown-label{font-size:14px;letter-spacing:0;text-transform:none;font-weight:600;color:#245848}
+.competency-dropdown:has(#selectedCompetency:not(:empty)) .dropdown-label{font-size:11px;color:#648275}
+.competency-dropdown #selectedCompetency{font-size:16px;line-height:1.55}
+.competency-options{top:calc(100% + 10px);border:1px solid #c6ddcf;border-radius:15px;box-shadow:0 16px 30px #174d3026;background:#fffffff7;padding:12px;max-height:52vh}
+.competency-dropdown[open] .competency-options{animation:competency-open 240ms cubic-bezier(.2,.7,.3,1)}
+.competency-options .weekly-group{grid-template-columns:80px minmax(0,1fr);gap:8px;padding:10px 0;border-top:1px solid #e2eee7}
+.competency-options .weekly-group h4{background:#e9f4ed;color:#316e57;font-size:12px;line-height:1.4;border-radius:20px;text-align:center;padding:7px 6px;margin-top:6px}
+.week-choices .competency-option{padding:12px 34px 12px 14px;border-radius:10px;position:relative;transition:background 180ms ease,color 180ms ease}
+.week-choices .competency-option[aria-pressed=true]{background:linear-gradient(100deg,#dcf8e9,#eaf6ee);color:#0b513c;font-weight:600}
+.week-choices .competency-option[aria-pressed=true]:after{content:'✓';position:absolute;right:12px;top:13px;color:#009465}
+.all-competencies{border-radius:9px;color:#2d6650}
+@keyframes competency-open{from{opacity:0;transform:translateY(-8px)}to{opacity:1;transform:translateY(0)}}
+@keyframes grade-select{from{transform:scale(.96)}to{transform:scale(1)}}
+@media(max-width:900px){.library .grades{grid-template-columns:repeat(5,1fr)}.library .section-heading>p{display:block;font-size:16px}.competency-filters{gap:14px;padding:14px}.competency-filters>label{padding-right:14px}.competency-filters select{min-width:130px}}
+@media(max-width:620px){.library{padding-top:30px}.library .section-heading{padding-right:0;min-height:150px}.selection-art{display:none}.library .section-heading>p{top:auto;bottom:0;font-size:15px}.library .grades{gap:8px}.library .grades button{min-height:84px;border-radius:13px;padding:14px 4px 10px}.library .grades button b{font-size:30px}.library .grades button span{font-size:9px}.library .grades button.active:after{right:4px;top:4px;width:14px;height:14px;line-height:14px;font-size:9px}.competency-filters>label{border-right:0;padding-right:0}.competency-filters select{flex:1}.competency-options .weekly-group{grid-template-columns:60px minmax(0,1fr);gap:4px}.competency-options{padding:8px}.competency-options .weekly-group h4{font-size:11px}.week-choices .competency-option{padding:10px 25px 10px 10px}.competency-dropdown #selectedCompetency{font-size:14px}}
+@media(prefers-reduced-motion:reduce){.library *{animation:none!important;transition:none!important}.library .grades button:hover{transform:none}}
+.library .section-heading{display:block;min-height:0}.library .section-heading>p{position:static;margin:14px 0 0;line-height:1.5}.library .section-heading .eyebrow{margin-top:0}.library .section-heading>div:first-child{position:relative;z-index:1}@media(max-width:620px){.library .section-heading{min-height:0}.library .section-heading>p{position:static;margin-top:12px}}
