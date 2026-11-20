@@ -2381,14 +2381,12 @@
     "weeks": "7 to 8",
     "text": "Number and Algebra ● Describe the rule used to generate a given simple pattern. ● Complete a number sentence: a. to represent a property of operations (e.g., 4 + 3 = 3 + ) (commutative property of addition) b. to represent equivalent number facts (e.g., 4 + = 6 + 3) ● Represent decimal numbers using models and manipulatives to show the relationship to fractions. ● Read and write decimal numbers with decimal parts to hundredths.",
     "models": [
-      "linear",
       "balance",
       "percent",
       "fraction",
       "pattern",
       "numberline",
-      "place",
-      "functions"
+      "place"
     ],
     "id": "g4-t3-w7-8-105",
     "competencies": [
@@ -3167,10 +3165,8 @@
     "weeks": "9 to 10",
     "text": "Number and Algebra ● Describe the relationship between quantities using ratio for: a. part-whole relationships b. part-part relationships.\" ● Express one number as a fraction of another given their ratio, and vice versa. ● Identify and write equivalent ratios. ● Solve problems involving ratio.",
     "models": [
-      "linear",
       "ratio",
-      "fraction",
-      "functions"
+      "fraction"
     ],
     "id": "g6-t1-w9-10-138",
     "competencies": [
@@ -3239,10 +3235,8 @@
     "weeks": "3",
     "text": "Number and Algebra ● Illustrate and explain the relationships between percentages, fractions, and decimals. ● Identify and explain the uses of percentages.",
     "models": [
-      "linear",
       "percent",
-      "fraction",
-      "functions"
+      "fraction"
     ],
     "id": "g6-t2-w3-141",
     "competencies": [
@@ -3383,7 +3377,6 @@
       "geometry",
       "angle",
       "shapes",
-      "units",
       "composite",
       "trianglecheck"
     ],
@@ -3616,9 +3609,7 @@
     "weeks": "2",
     "text": "Measurement and Geometry ● Describe and explain the relationships between angle pairs based on their measures. ● Classify polygons according to the number of sides, whether they are regular or irregular, and whether they are convex or non-convex.",
     "models": [
-      "polygon",
-      "linear",
-      "functions"
+      "polygon"
     ],
     "id": "g7-t1-w2-157",
     "competencies": [
@@ -3641,9 +3632,7 @@
     "text": "Measurement and Geometry ● Deduce the relationship between the exterior angle and adjacent interior angle of a polygon. ● Determine the measures of angles and the number of sides of polygons.",
     "models": [
       "polygon",
-      "angle",
-      "linear",
-      "functions"
+      "angle"
     ],
     "id": "g7-t1-w3-158",
     "competencies": [
@@ -3872,8 +3861,7 @@
     "weeks": "5",
     "text": "Number and Algebra ● Describe sets and their subsets, the union of sets, and the intersection of sets ● Illustrate sets and their subsets, the union of sets, and the intersection of sets, through the use of Venn diagrams.",
     "models": [
-      "sets",
-      "units"
+      "sets"
     ],
     "id": "g7-t2-w5-168",
     "competencies": [
@@ -4745,8 +4733,7 @@
     "text": "Data and Probability ● Calculate the probability of simple combined events by listing, or by possibility diagrams or tree diagrams. ● Solve problems involving experimental probability and/or theoretical probability using the Fundamental Counting Principle.",
     "models": [
       "counting",
-      "probability",
-      "units"
+      "probability"
     ],
     "id": "g8-t3-w10-205",
     "competencies": [
@@ -4790,9 +4777,7 @@
     "weeks": "2",
     "text": "Measurement and Geometry ● Identify the relationships between angles formed by parallel lines cut by a transversal. ● Determine angle measures involving angle pairs, parallel and perpendicular lines, and parallel lines cut by a transversal.",
     "models": [
-      "angle",
-      "linear",
-      "functions"
+      "angle"
     ],
     "id": "g9-t1-w2-207",
     "competencies": [
@@ -4890,8 +4875,7 @@
     "models": [
       "geometry",
       "angle",
-      "shapes",
-      "units"
+      "shapes"
     ],
     "id": "g9-t1-w7-8-211",
     "competencies": [
@@ -4915,8 +4899,7 @@
     "models": [
       "geometry",
       "angle",
-      "shapes",
-      "units"
+      "shapes"
     ],
     "id": "g9-t1-w9-212",
     "competencies": [
@@ -4937,8 +4920,7 @@
     "text": "Measurement and Geometry ● Prove properties of parallelograms by applying the relevant theorems.",
     "models": [
       "geometry",
-      "angle",
-      "units"
+      "angle"
     ],
     "id": "g9-t1-w10-213",
     "competencies": [
@@ -4958,9 +4940,7 @@
     "weeks": "1 to 2",
     "text": "Measurement and Geometry ● Derive the properties of trapezoids and kites by exploring the relationship between their parts and secondary parts. ● Solve problems on trapezoids and kites by applying their properties. ● Distinguish inductive and deductive reasoning for establishing proofs.",
     "models": [
-      "geometry",
-      "linear",
-      "functions"
+      "geometry"
     ],
     "id": "g9-t2-w1-2-214",
     "competencies": [
@@ -5006,7 +4986,6 @@
     "weeks": "4",
     "text": "Measurement and Geometry ● Solve problems involving right triangle congruence theorems, isosceles triangle theorem, perpendicular bisector theorem, and midline theorem.",
     "models": [
-      "circle",
       "geometry",
       "angle"
     ],
@@ -5052,9 +5031,7 @@
     "text": "Number and Algebra ● Represent real-life situations that can be modelled using quadratic relationships ● Graph equations in two variables to represent quadratic relationships, such as y=ax² , y=ax²+b, y=a(x-b)².",
     "models": [
       "quadratic",
-      "linear",
-      "balance",
-      "functions"
+      "balance"
     ],
     "id": "g9-t2-w6-218",
     "competencies": [
@@ -5220,10 +5197,8 @@
     "weeks": "4",
     "text": "Number and Algebra ● Translate a relationship between two quantities into a variation statement and/or a mathematical equation, given a table of values or a graph. ● Solve problems involving variation.",
     "models": [
-      "linear",
       "balance",
-      "variation",
-      "functions"
+      "variation"
     ],
     "id": "g9-t3-w4-225",
     "competencies": [
@@ -5245,7 +5220,6 @@
     "weeks": "5 to 7",
     "text": "Measurement and Geometry ● Solve problems involving the perpendicular bisector theorem, isosceles triangle theorem, theorems on equilateral triangles, and the midline theorem. ● Explain theorems on triangle inequalities and apply these theorems in comparing measures in a triangle. ● Determine the values of the sine, cosine, and tangent trigonometric ratios corresponding to the angles of the special triangles. ● Find the values of the sine, cosine, and tangent ratios of any acute angle. ● Use the trigonometric ratios in solving right triangles.",
     "models": [
-      "circle",
       "geometry",
       "right",
       "angle",
@@ -5514,7 +5488,6 @@
     "text": "Data and Probability ● Construct and interpret box-and-whisker plots and cumulative frequency histograms and polygons. ● Calculate a specified measure of position, interquartile range, and outliers, from ungrouped data.",
     "models": [
       "data",
-      "units",
       "statistics"
     ],
     "id": "g10-t1-w9-237",
@@ -5749,12 +5722,9 @@
     "weeks": "2 to 3",
     "text": "Data and Probability ● Identify complementary events. ● Solve probability problems involving: a. union and intersection of events, including mutually and non-mutually exclusive events b. dependent and independent events, including conditional probability where the solution is limited to the use of contingency tables or Venn diagrams c. complementary events Number and Algebra ● Explore inductively the relationship between simple interest and compound interest.",
     "models": [
-      "linear",
       "interest",
       "sets",
-      "probability",
-      "units",
-      "functions"
+      "probability"
     ],
     "id": "g10-t3-w2-3-247",
     "competencies": [
@@ -5845,9 +5815,7 @@
     "models": [
       "chords",
       "circle",
-      "angle",
-      "linear",
-      "functions"
+      "angle"
     ],
     "id": "g10-t3-w7-8-251",
     "competencies": [

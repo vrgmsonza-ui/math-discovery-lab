@@ -13,3 +13,6 @@ The automated checks are not a substitute for a teacher review of every competen
 - `python verify_sources.py`: all 506 source bullets match by count, order and opening wording across 30 grade-term sections. Original stored competency text is unchanged. This is a source-inclusion check, not a full mastery or instructional-completeness claim.
 - All 254 groups have valid companion models and a discussion/completion prompt for each competency; all 300 week slots remain present.
 - See `COVERAGE_REVIEW.md` for remaining teaching tasks and limited model families.
+- Live browser: Grade 8 triangle classification opens; search filters correctly; presentation view enlarges the lab; Next competency changes the discussion; Hide result conceals output while a slider changes 3–4–5 to 3–4–6; Reveal result correctly shows an obtuse triangle; Escape returns to the regular dialog without losing state.
+- Browser fullscreen was denied by the test browser; the page-filling presentation fallback and its explanatory status were verified. Native fullscreen success is not claimed.
+- Final assignment audit corrects 76 groups after narrowing word matching for relations, units and circle sectors.

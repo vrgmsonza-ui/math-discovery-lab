@@ -4,7 +4,7 @@ Reviewed 254 source weekly groups and 506 competency entries across Grades 1–1
 
 ## Findings and changes
 
-Corrected companion-model assignments in 71 groups. Added 11 models for previously weak or missing representations: tens/ones regrouping, composite figures, pyramids with different bases, absolute-value equations, functions/domain/range, sampling, frequency/position/variability, scientific-notation operations, monomial operations, radical simplification/equations and triangle inequalities.
+Corrected companion-model assignments in 76 groups. Added 11 models for previously weak or missing representations: tens/ones regrouping, composite figures, pyramids with different bases, absolute-value equations, functions/domain/range, sampling, frequency/position/variability, scientific-notation operations, monomial operations, radical simplification/equations and triangle inequalities.
 
 Expanded number-line precision to four decimal places, money denominations, rounding places and fixed time conversions. Removed lexical false positives such as an inequality number line for triangle inequalities and polygon geometry for frequency polygons.
 
@@ -129,7 +129,7 @@ These are companion simulations, not evidence of full competency mastery. Every 
 | g4-t3-w4-102 | transform | 3 | Model exploration + competency-specific teacher task |
 | g4-t3-w5-103 | data | 2 | Model exploration + competency-specific teacher task |
 | g4-t3-w6-104 | balance, data | 2 | Model exploration + competency-specific teacher task |
-| g4-t3-w7-8-105 | linear, balance, percent, fraction, pattern, numberline, place, functions | 4 | Model exploration + competency-specific teacher task |
+| g4-t3-w7-8-105 | balance, percent, fraction, pattern, numberline, place | 4 | Model exploration + competency-specific teacher task |
 | g4-t3-w9-10-106 | percent, fraction, round, numberline, place | 5 | Model exploration + competency-specific teacher task |
 | g5-t1-w1-107 | clock | 3 | Model exploration + competency-specific teacher task |
 | g5-t1-w2-108 | clock | 2 | Model exploration + competency-specific teacher task |
@@ -162,16 +162,16 @@ These are companion simulations, not evidence of full competency mastery. Every 
 | g6-t1-w5-135 | arrays, numberline | 2 | Model exploration + competency-specific teacher task |
 | g6-t1-w6-7-136 | percent, fraction, arrays, numberline | 3 | Model exploration + competency-specific teacher task |
 | g6-t1-w8-137 | fraction, arrays | 2 | Model exploration + competency-specific teacher task |
-| g6-t1-w9-10-138 | linear, ratio, fraction, functions | 4 | Model exploration + competency-specific teacher task |
+| g6-t1-w9-10-138 | ratio, fraction | 4 | Model exploration + competency-specific teacher task |
 | g6-t2-w1-139 | ratio, numberline | 2 | Model exploration + competency-specific teacher task |
 | g6-t2-w2-140 | ratio | 1 | Model exploration + competency-specific teacher task |
-| g6-t2-w3-141 | linear, percent, fraction, functions | 2 | Model exploration + competency-specific teacher task |
+| g6-t2-w3-141 | percent, fraction | 2 | Model exploration + competency-specific teacher task |
 | g6-t2-w4-142 | powers | 2 | Model exploration + competency-specific teacher task |
 | g6-t2-w5-143 | powers, expression | 1 | Model exploration + competency-specific teacher task |
 | g6-t2-w6-144 | solid, units | 2 | Model exploration + competency-specific teacher task |
 | g6-t2-w7-8-145 | solid, units | 3 | Model exploration + competency-specific teacher task |
 | g6-t2-w9-146 | shapes, units, composite, trianglecheck | 2 | Model exploration + competency-specific teacher task |
-| g6-t2-w10-147 | geometry, angle, shapes, units, composite, trianglecheck | 1 | Model exploration + competency-specific teacher task |
+| g6-t2-w10-147 | geometry, angle, shapes, composite, trianglecheck | 1 | Model exploration + competency-specific teacher task |
 | g6-t3-w1-148 | circle | 2 | Model exploration + competency-specific teacher task |
 | g6-t3-w2-149 | circle, ratio | 2 | Model exploration + competency-specific teacher task |
 | g6-t3-w3-150 | circle, shapes | 2 | Model exploration + competency-specific teacher task |
@@ -181,8 +181,8 @@ These are companion simulations, not evidence of full competency mastery. Every 
 | g6-t3-w8-154 | data | 2 | Model exploration + competency-specific teacher task |
 | g6-t3-w9-10-155 | factors, arrays | 3 | Model exploration + competency-specific teacher task |
 | g7-t1-w1-156 | polygon, angle, shapes | 2 | Model exploration + competency-specific teacher task |
-| g7-t1-w2-157 | polygon, linear, functions | 2 | Model exploration + competency-specific teacher task |
-| g7-t1-w3-158 | polygon, angle, linear, functions | 2 | Model exploration + competency-specific teacher task |
+| g7-t1-w2-157 | polygon | 2 | Model exploration + competency-specific teacher task |
+| g7-t1-w3-158 | polygon, angle | 2 | Model exploration + competency-specific teacher task |
 | g7-t1-w4-159 | interest, budget, percent | 2 | Model exploration + competency-specific teacher task |
 | g7-t1-w5-160 | budget | 1 | Model exploration + competency-specific teacher task |
 | g7-t1-w6-161 | rate | 2 | Model exploration + competency-specific teacher task |
@@ -192,7 +192,7 @@ These are companion simulations, not evidence of full competency mastery. Every 
 | g7-t2-w1-2-165 | units | 1 | Model exploration + competency-specific teacher task |
 | g7-t2-w3-166 | circle, solid, shapes | 3 | Model exploration + competency-specific teacher task |
 | g7-t2-w4-167 | solid, pyramid | 3 | Model exploration + competency-specific teacher task |
-| g7-t2-w5-168 | sets, units | 2 | Model exploration + competency-specific teacher task |
+| g7-t2-w5-168 | sets | 2 | Model exploration + competency-specific teacher task |
 | g7-t2-w6-169 | sets, probability, data, sampling | 2 | Model exploration + competency-specific teacher task |
 | g7-t2-w7-8-170 | data, statistics | 3 | Model exploration + competency-specific teacher task |
 | g7-t2-w9-171 | numberline | 2 | Model exploration + competency-specific teacher task |
@@ -229,28 +229,28 @@ These are companion simulations, not evidence of full competency mastery. Every 
 | g8-t3-w7-202 | probability, data | 2 | Model exploration + competency-specific teacher task |
 | g8-t3-w8-203 | counting | 2 | Model exploration + competency-specific teacher task |
 | g8-t3-w9-204 | counting, probability | 2 | Model exploration + competency-specific teacher task |
-| g8-t3-w10-205 | counting, probability, units | 2 | Model exploration + competency-specific teacher task |
+| g8-t3-w10-205 | counting, probability | 2 | Model exploration + competency-specific teacher task |
 | g9-t1-w1-206 | angle | 2 | Model exploration + competency-specific teacher task |
-| g9-t1-w2-207 | angle, linear, functions | 2 | Model exploration + competency-specific teacher task |
+| g9-t1-w2-207 | angle | 2 | Model exploration + competency-specific teacher task |
 | g9-t1-w3-4-208 | linear, balance, functions | 4 | Model exploration + competency-specific teacher task |
 | g9-t1-w5-209 | linear, functions | 2 | Model exploration + competency-specific teacher task |
 | g9-t1-w6-210 | angle, linear | 2 | Model exploration + competency-specific teacher task |
-| g9-t1-w7-8-211 | geometry, angle, shapes, units | 2 | Model exploration + competency-specific teacher task |
-| g9-t1-w9-212 | geometry, angle, shapes, units | 1 | Model exploration + competency-specific teacher task |
-| g9-t1-w10-213 | geometry, angle, units | 1 | Model exploration + competency-specific teacher task |
-| g9-t2-w1-2-214 | geometry, linear, functions | 3 | Model exploration + competency-specific teacher task |
+| g9-t1-w7-8-211 | geometry, angle, shapes | 2 | Model exploration + competency-specific teacher task |
+| g9-t1-w9-212 | geometry, angle, shapes | 1 | Model exploration + competency-specific teacher task |
+| g9-t1-w10-213 | geometry, angle | 1 | Model exploration + competency-specific teacher task |
+| g9-t2-w1-2-214 | geometry | 3 | Model exploration + competency-specific teacher task |
 | g9-t2-w3-215 | geometry | 2 | Model exploration + competency-specific teacher task |
-| g9-t2-w4-216 | circle, geometry, angle | 1 | Model exploration + competency-specific teacher task |
+| g9-t2-w4-216 | geometry, angle | 1 | Model exploration + competency-specific teacher task |
 | g9-t2-w5-217 | geometry, angle | 2 | Model exploration + competency-specific teacher task |
-| g9-t2-w6-218 | quadratic, linear, balance, functions | 2 | Model exploration + competency-specific teacher task |
+| g9-t2-w6-218 | quadratic, balance | 2 | Model exploration + competency-specific teacher task |
 | g9-t2-w7-219 | quadratic, transform, linear | 2 | Model exploration + competency-specific teacher task |
 | g9-t2-w8-220 | quadratic, linear, balance | 2 | Model exploration + competency-specific teacher task |
 | g9-t2-w9-221 | quadratic, linear, balance, powers | 2 | Model exploration + competency-specific teacher task |
 | g9-t2-w10-222 | quadratic, linear, balance | 1 | Model exploration + competency-specific teacher task |
 | g9-t3-w1-223 | geometry, right | 2 | Model exploration + competency-specific teacher task |
 | g9-t3-w2-3-224 | right, angle, variation | 3 | Model exploration + competency-specific teacher task |
-| g9-t3-w4-225 | linear, balance, variation, functions | 2 | Model exploration + competency-specific teacher task |
-| g9-t3-w5-7-226 | circle, geometry, right, angle, ratio, trianglecheck | 5 | Model exploration + competency-specific teacher task |
+| g9-t3-w4-225 | balance, variation | 2 | Model exploration + competency-specific teacher task |
+| g9-t3-w5-7-226 | geometry, right, angle, ratio, trianglecheck | 5 | Model exploration + competency-specific teacher task |
 | g9-t3-w8-227 | right, angle, ratio | 2 | Model exploration + competency-specific teacher task |
 | g9-t3-w9-228 | probability, data | 2 | Model exploration + competency-specific teacher task |
 | g9-t3-w10-229 | probability | 2 | Model exploration + competency-specific teacher task |
@@ -261,7 +261,7 @@ These are companion simulations, not evidence of full competency mastery. Every 
 | g10-t1-w5-6-234 | inequality, quadratic, balance, numberline | 4 | Model exploration + competency-specific teacher task |
 | g10-t1-w7-235 | inequality, quadratic, linear, balance, absolute | 2 | Model exploration + competency-specific teacher task |
 | g10-t1-w8-236 | inequality, probability, data, percent, absolute, statistics | 2 | Model exploration + competency-specific teacher task |
-| g10-t1-w9-237 | data, units, statistics | 2 | Model exploration + competency-specific teacher task |
+| g10-t1-w9-237 | data, statistics | 2 | Model exploration + competency-specific teacher task |
 | g10-t1-w10-238 | data, percent, statistics | 2 | Model exploration + competency-specific teacher task |
 | g10-t2-w1-239 | powers, radicals | 2 | Model exploration + competency-specific teacher task |
 | g10-t2-w2-240 | powers, radicals | 1 | Model exploration + competency-specific teacher task |
@@ -271,11 +271,11 @@ These are companion simulations, not evidence of full competency mastery. Every 
 | g10-t2-w7-8-244 | circlegraph, balance | 2 | Model exploration + competency-specific teacher task |
 | g10-t2-w9-10-245 | circlegraph, coordinates, balance | 2 | Model exploration + competency-specific teacher task |
 | g10-t3-w1-246 | sets, data | 2 | Model exploration + competency-specific teacher task |
-| g10-t3-w2-3-247 | linear, interest, sets, probability, units, functions | 3 | Model exploration + competency-specific teacher task |
+| g10-t3-w2-3-247 | interest, sets, probability | 3 | Model exploration + competency-specific teacher task |
 | g10-t3-w4-248 | interest | 2 | Model exploration + competency-specific teacher task |
 | g10-t3-w5-249 | balance, interest | 2 | Model exploration + competency-specific teacher task |
 | g10-t3-w6-250 | interest | 1 | Model exploration + competency-specific teacher task |
-| g10-t3-w7-8-251 | chords, circle, angle, linear, functions | 3 | Model exploration + competency-specific teacher task |
+| g10-t3-w7-8-251 | chords, circle, angle | 3 | Model exploration + competency-specific teacher task |
 | g10-t3-w9-252 | chords, circle | 2 | Model exploration + competency-specific teacher task |
 | g10-t3-w10-253 | circle, shapes | 1 | Model exploration + competency-specific teacher task |
 
@@ -307,23 +307,24 @@ These are companion simulations, not evidence of full competency mastery. Every 
 - g4-t1-w3-85: angle, shapes → angle, shapes, trianglecheck
 - g4-t1-w4-86: shapes → shapes, composite, trianglecheck
 - g4-t1-w9-10-90: money, factors, arrays → money, factors, arrays, numberline
-- g4-t3-w7-8-105: linear, balance, percent, fraction, pattern, numberline, place → linear, balance, percent, fraction, pattern, numberline, place, functions
+- g4-t3-w7-8-105: linear, balance, percent, fraction, pattern, numberline, place → balance, percent, fraction, pattern, numberline, place
 - g5-t1-w6-7-111: angle, shapes, balance → angle, shapes, balance, trianglecheck
 - g5-t3-w3-4-124: money, arrays → money, arrays, numberline
 - g5-t3-w7-127: nets, solid → nets, solid, pyramid
 - g5-t3-w10-130: transform, solid, clock, units, place → transform, solid, clock, units
 - g6-t1-w5-135: arrays → arrays, numberline
-- g6-t1-w9-10-138: linear, ratio, fraction → linear, ratio, fraction, functions
-- g6-t2-w3-141: linear, percent, fraction → linear, percent, fraction, functions
+- g6-t1-w9-10-138: linear, ratio, fraction → ratio, fraction
+- g6-t2-w3-141: linear, percent, fraction → percent, fraction
 - g6-t2-w9-146: shapes, units → shapes, units, composite, trianglecheck
-- g6-t2-w10-147: geometry, angle, shapes, units → geometry, angle, shapes, units, composite, trianglecheck
+- g6-t2-w10-147: geometry, angle, shapes, units → geometry, angle, shapes, composite, trianglecheck
 - g6-t3-w1-148: circle, shapes → circle
 - g6-t3-w2-149: circle, shapes, ratio → circle, ratio
 - g6-t3-w4-5-151: circle, shapes → circle, shapes, composite, trianglecheck
-- g7-t1-w2-157: polygon, linear → polygon, linear, functions
-- g7-t1-w3-158: polygon, angle, linear → polygon, angle, linear, functions
+- g7-t1-w2-157: polygon, linear → polygon
+- g7-t1-w3-158: polygon, angle, linear → polygon, angle
 - g7-t1-w4-159: interest, budget, percent, place → interest, budget, percent
 - g7-t2-w4-167: solid → solid, pyramid
+- g7-t2-w5-168: sets, units → sets
 - g7-t2-w6-169: sets, probability, data → sets, probability, data, sampling
 - g7-t2-w7-8-170: data → data, statistics
 - g7-t3-w3-175: balance, numberline → balance, numberline, absolute
@@ -335,20 +336,24 @@ These are companion simulations, not evidence of full competency mastery. Every 
 - g8-t2-w3-191: inequality, geometry, right, angle → geometry, right, angle, trianglecheck
 - g8-t3-w6-201: data → data, statistics
 - g8-t3-w8-203: counting, place → counting
-- g8-t3-w10-205: counting, probability, units, place → counting, probability, units
-- g9-t1-w2-207: angle, linear → angle, linear, functions
+- g8-t3-w10-205: counting, probability, units, place → counting, probability
+- g9-t1-w2-207: angle, linear → angle
 - g9-t1-w3-4-208: linear, balance → linear, balance, functions
 - g9-t1-w5-209: linear → linear, functions
-- g9-t2-w1-2-214: geometry, linear → geometry, linear, functions
-- g9-t2-w6-218: quadratic, linear, balance → quadratic, linear, balance, functions
-- g9-t3-w4-225: linear, balance, variation → linear, balance, variation, functions
-- g9-t3-w5-7-226: circle, inequality, geometry, right, angle, ratio → circle, geometry, right, angle, ratio, trianglecheck
+- g9-t1-w7-8-211: geometry, angle, shapes, units → geometry, angle, shapes
+- g9-t1-w9-212: geometry, angle, shapes, units → geometry, angle, shapes
+- g9-t1-w10-213: geometry, angle, units → geometry, angle
+- g9-t2-w1-2-214: geometry, linear → geometry
+- g9-t2-w4-216: circle, geometry, angle → geometry, angle
+- g9-t2-w6-218: quadratic, linear, balance → quadratic, balance
+- g9-t3-w4-225: linear, balance, variation → balance, variation
+- g9-t3-w5-7-226: circle, inequality, geometry, right, angle, ratio → geometry, right, angle, ratio, trianglecheck
 - g10-t1-w7-235: inequality, quadratic, linear, balance → inequality, quadratic, linear, balance, absolute
 - g10-t1-w8-236: inequality, probability, data, percent → inequality, probability, data, percent, absolute, statistics
-- g10-t1-w9-237: polygon, data, units → data, units, statistics
+- g10-t1-w9-237: polygon, data, units → data, statistics
 - g10-t1-w10-238: data, percent → data, percent, statistics
 - g10-t2-w1-239: powers → powers, radicals
 - g10-t2-w2-240: powers → powers, radicals
 - g10-t2-w6-243: circlegraph, quadratic, rational, linear, balance, powers → circlegraph, quadratic, rational, linear, balance, powers, radicals
-- g10-t3-w2-3-247: linear, interest, sets, probability, units → linear, interest, sets, probability, units, functions
-- g10-t3-w7-8-251: chords, circle, angle, linear → chords, circle, angle, linear, functions
+- g10-t3-w2-3-247: linear, interest, sets, probability, units → interest, sets, probability
+- g10-t3-w7-8-251: chords, circle, angle, linear → chords, circle, angle
