@@ -14,7 +14,7 @@ function selectWeekly(id,index){
 }
 function renderWeekly(){
  const rows=termRows(),chosen=selectedWeekly&&rows.find(r=>r.id===selectedWeekly.id);
- $('selectedCompetency').textContent=chosen?`${+$('term').value?'':terms[chosen.term]+' · '}Week ${chosen.weeks} — ${chosen.competencies[selectedWeekly.index]}`:'Choose a competency';
+ $('selectedCompetency').textContent=chosen?`${+$('term').value?'':terms[chosen.term]+' · '}Week ${chosen.weeks} — ${chosen.competencies[selectedWeekly.index]}`:'';
  let lastTerm=0;
  $('weeklyList').innerHTML='<button type="button" class="competency-option all-competencies" data-weekly-id="" data-focus="0">Show all competencies</button>'+rows.map(r=>{let heading=!+$('term').value&&lastTerm!==r.term?`<h3 class="dropdown-term">${terms[r.term]}</h3>`:'';lastTerm=r.term;return heading+`<section class="weekly-group"><h4>Week ${esc(r.weeks)}</h4><div class="week-choices">${r.competencies.map((c,i)=>`<button type="button" class="competency-option" data-weekly-id="${r.id}" data-focus="${i}" aria-pressed="${!!(chosen&&chosen.id===r.id&&selectedWeekly.index===i)}">${esc(c)}</button>`).join('')}</div></section>`}).join('');
  $('weeklyList').querySelectorAll('[data-weekly-id]').forEach(b=>b.onclick=()=>selectWeekly(b.dataset.weeklyId,+b.dataset.focus));
